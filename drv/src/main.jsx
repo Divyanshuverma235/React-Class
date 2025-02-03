@@ -1,13 +1,18 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import App from './component/useEffectex2'
+import { UserContext } from './component/UserContextFinal'
+
+
+
+
+
 
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App/>
- 
- 
+
+<UserContextFinal/>
+
   </StrictMode>
 )

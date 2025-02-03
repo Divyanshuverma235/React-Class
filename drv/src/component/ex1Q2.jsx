@@ -23,7 +23,7 @@ function EmailValidator() {
                 onChange={handleChange}
                 placeholder="Enter your email"
             />
-            {isValid === null ? (
+            {isValid === null ? (s
                 <p>Please enter an email address.</p>
             ) : isValid ? (
                 <p>The email address is valid.</p>
