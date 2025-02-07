@@ -1,6 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { UserContext } from './component/UserContextFinal'
+import Final from './component/FinalInterest'
+//import ThirdP from './component/InterestP3'
+//import SecondPage from './component/InterestP2'
+//import FirstP from './component/InterestP1'
+//import ThirdP from './component/InterestP3'
 
 
 
@@ -12,7 +16,7 @@ import { UserContext } from './component/UserContextFinal'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
 
-<UserContextFinal/>
+<Final/>
 
   </StrictMode>
 )

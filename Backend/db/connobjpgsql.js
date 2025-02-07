@@ -1,11 +1,11 @@
-const pool = require("pg").Pool;
+const Pool = require("pg").Pool;
 
 function connectionObj(){
    
     const  pool= new Pool ({
         user:"postgres",
         host:"localhost",
-        database : "mydb",
+        database : "mydbexpress",
         password:"123456",
         port:5432,
         max : 100,
